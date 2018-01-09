@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PCATV Home Page</title>
+        <link rel="stylesheet" href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css" type="text/css" />
+        <link rel="stylesheet" href="Website.css" text="text/css"/>
+        <meta charset="utf-8"/>
+    
+    
+        <h1><center><b><u>PCATV</u></b></center></h1>
+        <h2><center>Punjabi Cultural Association of the Tri-Valley</center></h2>
+    </head>
+        <header>
+            <ul>
+              <li><a class="active" href="#home" color = >Home</a></li>
+              <li><a href="#news">News</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#about">About</a></li>
+            </ul>
+        </header>
+    <body>
+
+  <h2><center>A day in PCATV'S Life...</center></h2>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="http://evworld.com/BLOGS/PHOTOS/garysooter_grayscale1000x250.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="http://www.capehazevacationrentals.com/sitebuilder/images/63-1000x250.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="http://sofn6.org/wp-content/uploads/SampleImages/Aurora-Borealis-1000x250.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 1600); // Change image every 2 seconds
+}
+</script>
+        
+        <div class = "header-bottom">
+            <p style = "color: white">Sponsors: These are where the pictures of the sponsors will go...</p>
+            <img src = "https://i.ytimg.com/vi/SfBR9aGrk9k/maxresdefault.jpg" width = "75" height = "75">
+        </div>
+        
+        
+        <div class = "section" >
+            <div class = "row">
+                <div class = "pull-left">
+                    <img src = "http://www.metronews.ca/content/dam/thestar/2015/05/28/web_bhangra_jennifergauthier.jpeg" width = "800" height = "400">
+                </div>
+                <div class = "pull-right">
+                    <p>Here is some text about PCATV's activities</p>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "pull-right">
+                    <img src = "http://mediad.publicbroadcasting.net/p/kuow/files/styles/x_large/public/201511/P1060764.JPG" width = "800" height = "400" >
+                </div>
+                <div class = "pull-left">
+                    <p>Here is some text about PCATV's mission to help the homeless around the tri-valley...</p>
+                </div>
+            </div>
+    
+        </div>  
+            
+            
+        <div class = "quote">
+            <p>"This is where a quote could go..."</p>
+        </div>
+        
+        
+       <div class = "footer">
+           <div class = "row">
+               
+           </div>
+       </div>
+    </body>
+</html>
+
+
+
+
+
+
+ 
+
+
